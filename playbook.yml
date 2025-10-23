@@ -1,0 +1,7 @@
+- name: Jenkins Ansible Test
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Show success message
+      ansible.builtin.debug:
+        msg: "Jenkins is running Ansible successfully!"
